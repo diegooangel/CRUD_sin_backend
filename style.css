@@ -1,0 +1,108 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #808ca3;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    p {
+        text-align: center;
+        color: #525252;
+        margin-bottom: 30px;
+    }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #636868;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    #ul {
+        max-width: 500px;
+        margin: 20px auto;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    #ul li {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border-left: 5px solid #4CAF50;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .nota-card {
+    background-color: #ffffff;
+    border-left: 5px solid #4CAF50;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.nota-card:hover {
+    transform: scale(1.02);
+}
+
+.nota-card h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.nota-card p {
+    margin: 0;
+    color: #555;
+    font-size: 15px;
+}
